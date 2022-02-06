@@ -1,0 +1,19 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+#baslık{
+    font-size: large;
+    font-size: 5em;
+}
+
+#subheader{
+    
+    font-size: large;
+    font-size: 21px;
+}
