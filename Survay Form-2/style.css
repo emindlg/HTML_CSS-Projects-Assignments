@@ -1,0 +1,98 @@
+#resim{
+    width: 350px;
+    height: 350px;
+    float: left;
+    padding-top: 60px;
+    
+}
+
+#parag{
+    
+    padding-left: 500px;
+    padding-bottom: 8px;
+    color: rgb(12, 59, 12);
+    font-family: cursive;
+   
+}
+
+li{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: rgb(5, 97, 46);
+}
+
+
+
+body{
+    max-width: 1200px;
+    max-height: 450px;
+    min-width: 700px;
+    position:absolute;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgba(192, 188, 188, 0.062);
+    margin-left: 40px;
+}
+
+
+#arkaplan{
+    background-color: rgba(215, 228, 228, 0.959);
+    border: 1px solid rgb(194, 188, 188);
+    margin-top: 50px;
+
+    
+}
+
+hr{
+    margin-top: 20px;
+    color: rgb(169, 169, 169);
+    border-style: dotted; 
+}
+
+#pic1{
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+    float: left;
+}
+
+#pic2{
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+    float: left;
+}
+
+
+#pic3{
+    width: 30px;
+    height: 30px;
+    padding-right: 50px;
+    float: left;
+}
+
+#pic1:hover{
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+#pic2:hover{
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+#pic3:hover{
+    width: 35px;
+    height: 35px;
+    opacity: 0.5;
+}
+
+#input{
+    text-align: right; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic;  
+    
+}
+
