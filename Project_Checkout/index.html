@@ -14,33 +14,122 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="" class="firstnav">MAN</a>
-        <a href="" class="secondnav">WOMAN</a>
-        <a href="" class="thirdnav">KID</a>
-        <a href="" class="fourthnav">BRAND</a>
-        <a href="" class="fifthnav">OUTLET</a>
+        <a href="" class="nav1">MAN</a>
+        <a href="" class="nav2">WOMAN</a>
+        <a href="" class="nav3">KID</a>
+        <a href="" class="nav4">BRAND</a>
+        <a href="" class="nav5">OUTLET</a>
     </nav>
 
     <header class="head">
         CHECKOUT
     </header>
 
+    <form>
+        <h4>Contact information</h4>
+
+        <div class="inputbox1">
+            <label for="email" class="email">Email</label>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" placeholder="Enter your email...">
+            
+        </div>
+        <div class="inputbox2">
+            <label for="phone">Phone</label>
+            <i class="fa-solid fa-phone"></i>
+            <input type="phone" class="phone" placeholder="Enter your phone...">
+
+        </div>
+
+        <h4>Shipping address</h4>
+
+        <div class="inputbox3">
+            <label for="name">Full name</label>
+            <i class="fa-solid fa-user-large"></i>
+            <input type="text" placeholder="Enter your full name...">
+
+        </div>
+
+        <div class="inputbox4">
+            <label for="address">Address</label>
+            <i class="fa-solid fa-house-chimney"></i>
+            <input type="text" placeholder="Enter your address...">
+
+        </div>
+
+        <div class="inputbox5">
+            <label for="city">City</label>
+            <i class="fa-solid fa-city"></i>
+            <input type="text" placeholder="Enter your city...">
+
+        </div>
+
+        <div class="country">
+
+            <label for="country">Country</label>
+            <i class="fa-solid fa-earth-europe"></i>
+            <select name="country" id="country">
+                <option value="Turkey">Turkey</option>
+                <option value="Canada">Canada</option>
+                <option value="USA">USA</option>
+                <option value="Germany">Germany</option>
+                <option value="Russia">Russia</option>
+            </select>
+
+        </div>
+
+        <div class="postal">
+            <label for="">Post Code</label>
+            <i class="fa-solid fa-envelopes-bulk" id="postalimg"></i>
+            <input type="text" id="postal" placeholder="Enter your postal code...">
+
+        </div>
+
+        <div>
+            <button type="submit" id="continue">Continue</button>
+        </div>
+
+
+    </form>
     <section>
+        <div>
+            <div>
+                <img src="./photo1.png" alt="" id="canta">
 
-        <div class="inputboxes">
-            <label for="email" class="email">Email</label> <br><br>
-            <i class="user-icon" ><img src="./user.png" alt="" id="icon1" srcset=""></i>
-            <input type="text" id="email" placeholder="Enter your email...">
+                
+                <h id="kutu1">Vintage Backbag</h><br>
+                <h id="kutu1">$54.99<span id="span1">$70.00</span></h><br>
+                <div class="quantity">
+                    <img src="./pngegg (1).png" alt="" id="resim1">
+                    <img src="./pngegg.png" alt="" id="resim2">
+                </div>
+                
+            </div><br>
+            
+            <div>
+                <img src="./photo2.png" alt="" id="ayakkabı">
+
+                
+                <h id="kutu2">Levi Shoes</h><br>
+                <h id="kutu2">$74.99<span id="span1">$90.00</span></h><br>
+                <div class="quantity">
+                    <img src="./pngegg (1).png" alt="" id="resim1">
+                    <img src="./pngegg.png" alt="" id="resim2">
+                </div>
+                
+            </div>
+
+            <p>Shipping <span id="span2">$19</span> </p>
+            <p>Total <span id="span2">$148.99</span> </p>
+
         </div>
-        <div class="images">
-
-        </div>
-
     </section>
 
-    <div class="continue">
+    
 
     </div>
+    <script src="https://kit.fontawesome.com/944fd2fa09.js" crossorigin="anonymous"></script>
+
     
 </body>
 </html>
