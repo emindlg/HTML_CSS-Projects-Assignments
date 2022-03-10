@@ -1,5 +1,9 @@
 @import './base/reset';
+<<<<<<< HEAD
 @import './abstracts/mixins', './abstracts/variables';
+=======
+@import './abstracts/mixin', './abstracts/variables';
+>>>>>>> 4d3306dd3da59153286701747812bcda4cbd1e43
 @import './components/footer', './components/nav', './components/responsive';
 @import './pages/about', './pages/home', './pages/contact', './pages/project';
 
